@@ -1,0 +1,121 @@
+@font-face {
+font-family:"Sketch 3D";
+src: url("fonts/Sketch 3D.otf");
+src: 
+url("Sketch 3D.otf") format("woff"),
+url("Sketch 3D.otf") format("opentype"),
+url("Sketch 3D.otf") format("svg");
+}
+
+@font-face {
+font-family:"HelveticaNeue";
+src: url("fonts/HelveticaNeue.ttc");
+src: 
+url("HelveticaNeue.ttc") format("woff"),
+url("HelveticaNeue.ttc") format("opentype"),
+url("HelveticaNeue.ttc") format("svg");
+}
+
+
+body {
+  background-color: #fff8c7;
+  font-family: "HelveticaNeue";
+}
+
+.container {
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  display: flex;
+  height: 600px;
+}
+
+.container-yellow {
+  background-color: #fff8c7;
+}
+
+.container-red {
+  background-color: #ffa0a0;
+}
+
+.container .col-sm-8 {
+  height: 100%;
+  transform: translate(0, 35%);
+}
+
+.nav {
+  width: 100%;
+  background-color: #fff8c7;
+}
+
+.navbar-nav {
+  float: right;
+  list-style: none;
+  display: block;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.nav-item {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.nav-item a {
+  color: #dcb30f;
+  transition: color 400ms;
+}
+
+.nav-item a:hover {
+  color: #776800;
+  text-decoration: none;
+}
+
+.nav-item a:focus {
+  color: #776800;
+  text-decoration: none;
+}
+
+.nav-item a.active {
+  color: #776800;
+}
+
+.title-yellow {
+  /*font-family: "Sketch 3D";*/
+  color: #776800;
+  font-size: 45px;
+  width: 100%;
+  text-align: center;
+}
+
+.row {
+  width: 100%;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 60%;
+  float: right;
+  width: 61%;
+  margin-top: 170px;
+}
+
+.description-container {
+  width: 100%;
+}
+
+.description-title {
+  font-size: 36px;
+  color: #a75d5d;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 24px;
+}
+
+.description-text {
+  font-size: 18px;
+  color: #585858;
+  text-align: center;
+}
