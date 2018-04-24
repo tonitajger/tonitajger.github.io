@@ -1,25 +1,6 @@
-@font-face {
-font-family:"Sketch 3D";
-src: url("Sketch 3D.otf");
-src: 
-url("Sketch 3D.otf") format("woff"),
-url("Sketch 3D.otf") format("opentype"),
-url("Sketch 3D.otf") format("svg");
-}
-
-@font-face {
-font-family:"HelveticaNeue";
-src: url("HelveticaNeue.ttc");
-src: 
-url("HelveticaNeue.ttc") format("woff"),
-url("HelveticaNeue.ttc") format("opentype"),
-url("HelveticaNeue.ttc") format("svg");
-}
-
-
 body {
   background-color: #fff;
-  font-family: "HelveticaNeue";
+  text-align:center;
 }
 
 ul {
@@ -42,9 +23,24 @@ ul {
   background-color: #ffa0a0;
 }
 
-.container .col-sm-8 {
+.red {
+  color: #a75d5d;
+}
+
+.yellow {
+  color: #776800;
+}
+
+.container-inner .text-container {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  width: 100%;
+}
+
+.container-inner {
   height: 100%;
-  transform: translate(0, 35%);
 }
 
 .nav {
@@ -78,7 +74,6 @@ ul {
 }
 
 .nav-item a:focus {
-  color: #776800;
   text-decoration: none;
 }
 
@@ -87,7 +82,6 @@ ul {
 }
 
 .title-yellow {
-  /*font-family: "Sketch 3D";*/
   color: #776800;
   font-size: 45px;
   width: 100%;
@@ -98,23 +92,34 @@ ul {
   width: 100%;
 }
 
+#hidden-bubble {
+  width: 20%;
+  margin: 125px 0px 0px 240px;
+  filter: opacity(0%);
+  transition: filter 0.3s; 
+}
+
 .img-circle {
-  border-radius: 50%;
-  width: 60%;
-  float: right;
-  width: 61%;
-  margin-top: 170px;
+    float: right;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%,-50%);
+}
+
+.img-circle:hover {
+  cursor: pointer;
 }
 
 .description-container {
   width: 100%;
+  margin: 150px 0px 40px 0px;
 }
 
 .description-title {
   font-size: 36px;
-  color: #a75d5d;
   text-align: center;
-  margin-top: 100px;
   margin-bottom: 24px;
 }
 
@@ -135,24 +140,22 @@ ul {
 }
 
 .footer-content ul {
-  margin-left: 45%;
+  width: 100%;
+  padding: 0px;
 }
 
 .footer-content li {
   display: inline-block;
+  margin: 0px 3px 0px 3px;
 }
 
 .footer-content img {
   width: 30px;
-  list-style: none;
-  margin-left: 0%;
-  margin-top: 0%;
+  filter: opacity(80%);
 }
 
 .copyright {
-  margin-top: 40px;
-  font-family: "HelveticaNeue";
-  text-align: center;
+  margin-top: 20px;
   font-size: 13px;
-  color: #fff;
+  color: #b9b9b9;
 }
