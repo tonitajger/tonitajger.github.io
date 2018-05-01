@@ -15,8 +15,14 @@ ul {
   height: 600px;
 }
 
-.container-potrait {
-  background: url("./portrait.jpg");
+.container-portrait {
+  background: url("../portrait.jpg") !important; 
+  position: relative !important;
+  opacity: 0.7;
+  background-position: 0px -350px !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
 }
 
 .container-yellow {
@@ -37,7 +43,7 @@ ul {
 
 .container-inner .text-container {
   top: 35%;
-  left: 22%;
+  left: -22%;
   /* transform: translate(-50%,-50%); */
   position: absolute;
   width: 100%;
@@ -59,7 +65,7 @@ ul {
 
 .nav {
   width: 100%;
-  background-color: #fff8c7;
+  position: fixed;
 }
 
 .navbar-nav {
@@ -78,12 +84,12 @@ ul {
 }
 
 .nav-item a {
-  color: #dcb30f;
+  color: #303030;
   transition: color 400ms;
 }
 
 .nav-item a:hover {
-  color: #776800;
+  color: #505050;
   text-decoration: none;
 }
 
@@ -92,9 +98,15 @@ ul {
 }
 
 .nav-item a.active {
-  color: #776800;
+  color: #101010;
 }
 
+.title-grey {
+  color: #101010;
+  font-size: 45px;
+  width: 100%;
+  text-align: center;
+}
 .title-yellow {
   color: #776800;
   font-size: 45px;
@@ -140,6 +152,12 @@ ul {
 .description-text {
   font-size: 18px;
   color: #585858;
+  text-align: center;
+}
+
+.description-text-dark {
+  font-size: 18px;
+  color: #141414;
   text-align: center;
 }
 
