@@ -15,6 +15,10 @@ ul {
   height: 600px;
 }
 
+.container-potrait {
+  background: url("./portrait.jpg");
+}
+
 .container-yellow {
   background-color: #fff8c7;
 }
@@ -32,15 +36,25 @@ ul {
 }
 
 .container-inner .text-container {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  top: 35%;
+  left: 22%;
+  /* transform: translate(-50%,-50%); */
   position: absolute;
   width: 100%;
 }
 
 .container-inner {
   height: 100%;
+}
+
+.col-right {
+  width: 40%;
+  float: right;
+}
+
+.col-left {
+  width: 60%;
+  float: left;
 }
 
 .nav {
@@ -100,12 +114,12 @@ ul {
 }
 
 .img-circle {
-    float: right;
-    width: 200px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-30%,-50%);
+  float: left;
+  width: 200px;
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  /* transform: translate(-100%,100%); */
 }
 
 .img-circle:hover {
