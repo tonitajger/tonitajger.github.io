@@ -74,6 +74,11 @@ ul {
   display: block;
   position: relative;
   margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.navbar-nav a {
+  cursor: pointer;
 }
 
 .nav-item {

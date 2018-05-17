@@ -25,18 +25,21 @@
   <div class="container-portrait container">
     <nav class="nav nav-pills" id="pills-tab" role="tablist">
       <ul class="navbar-nav item">
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html">About me<span class="sr-only">(current)</span></a>
+        <li id="top-link" class="nav-item">
+          <a class="nav-link">Top</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="projects.html">Projects</a>
+        <li id="about-link" class="nav-item">
+          <a class="nav-link">About me</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="resume.html">Resumé</a>
+        <li id="project-link" class="nav-item">
+          <a  class="nav-link">Projects</a>
+        </li>
+        <li id="resume-link" class="nav-item">
+          <a class="nav-link">Resumé</a>
         </li>
       </ul>
     </nav>
-    <div class="container">
+    <div id="top" class="container">
       <div class="container-inner">
         <div class="text-container">
           <div class="title-grey">Hello I'm Tony!</div>
@@ -45,12 +48,37 @@
       </div>
     </div>
   </div>
-  <div class="container container-red">
+  <div id="about" class="container container-red">
     <div class="description-container">
       <div class="description-title red"> Hi there.</div>
       <div class="description-text"><p>I'm a student in Engineering Physics <br> 
       at Lund University, Sweden. <br></p>
       <p>I have a deep interest for mathematics, <br> physics and programming.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="projects" class="container container-yellow">
+    <div class="description-container">
+      <div class="description-title yellow"> These are my projects.</div>
+      <div class="description-text"> Projects are coming soon...
+      </div>
+    </div>
+  </div>
+
+  <div class="container container-red">
+    <div class="description-container">
+      <div class="description-title red"> Project 1.</div>
+      <div class="description-text"> This is a sample project. Lorem ipsum and so on.
+      </div>
+    </div>
+  </div>
+
+  <div id="resume" class="container container-yellow">
+    <div class="description-container">
+      <div class="description-title yellow">Resumé</div>
+      <div class="description-text">My resumé is currently not available on this website. If you want to get <br>in touch with me, please write to me on <a href="https://www.linkedin.com/in/tony-liu-407234140/" target="blank"> LinkedIn</a> or send me an 
+      <a href="mailto:tonyranliu@gmail.com" target="_top"> email</a>.
       </div>
     </div>
   </div>
