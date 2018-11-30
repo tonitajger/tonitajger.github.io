@@ -1,106 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <title>Tony Liu</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, initial-scale=1">
 
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
-  <!-- Latest compiled and minified JavaScript -->
-  <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
+  <!-- jQuery first, then Tether, then Bootstrap JS. -->
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.3/fullpage.css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.3/fullpage.extensions.min.js"></script>
 
   <link rel="stylesheet" href="css/index.css">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
   <script src="js/index.js"></script>
 
 </head>
 <body>
 
-  <div class="container-portrait container">
-    <nav class="nav nav-pills" id="pills-tab" role="tablist">
-      <ul class="navbar-nav item">
-        <li id="top-link" class="nav-item">
-          <a class="nav-link">Top</a>
-        </li>
-        <li id="about-link" class="nav-item">
-          <a class="nav-link">About me</a>
-        </li>
-        <li id="project-link" class="nav-item">
-          <a  class="nav-link">Projects</a>
-        </li>
-        <li id="resume-link" class="nav-item">
-          <a class="nav-link">Resumé</a>
-        </li>
-      </ul>
-    </nav>
-    <div id="top" class="container">
-      <div class="container-inner">
-        <div class="text-container">
-          <div class="title-grey">Hello I'm Tony!</div>
-          <div class="description-text-dark">An Engineering Physics student</div>
-        </div>
+  <!-- <div id="navbar">
+    <a href="#page1">First slide</a>
+    <a href="#page2">Second slide</a>
+    <a href="#page3">Third slide</a>
+    <a href="#page4">Fourth slide</a>
+  </div> -->
+  <div id="fullpage">
+    
+
+    <div data-anchor="page1" id="section0" class="section">
+      <div class="section-title">
+        Hi I'm Tony
       </div>
+      <img src="images/arrow-down.svg" class="arrow-down">
     </div>
-  </div>
-  <div id="about" class="container container-red">
-    <div class="description-container">
-      <div class="description-title red"> Hi there.</div>
-      <div class="description-text"><p>I'm a student in Engineering Physics <br> 
-      at Lund University, Sweden. <br></p>
-      <p>I have a deep interest for mathematics, <br> physics and programming.</p>
+    <div data-anchor="page2" id="section1" class="section">
+      <div class="section-title">
+        Hi I'm Tony
+      </div>
+      <img src="images/arrow-down.svg" class="arrow-down">
+    </div>
+
+    <div data-anchor="page3" id="section2" class="section">
+      <div class="section-title">
+        Hi I'm Tony
+      </div>
+      <img src="images/arrow-down.svg" class="arrow-down">
+    </div>
+    <div data-anchor="page4" id="section3" class="section">
+      <div class="section-title">
+        Hi I'm Tony
       </div>
     </div>
   </div>
 
-  <div id="projects" class="container container-yellow">
-    <div class="description-container">
-      <div class="description-title yellow"> These are my projects.</div>
-      <div class="description-text"> Projects are coming soon...
-      </div>
-    </div>
-  </div>
-
-  <div class="container container-red">
-    <div class="description-container">
-      <div class="description-title red"> Project 1.</div>
-      <div class="description-text"> This is a sample project. Lorem ipsum and so on.
-      </div>
-    </div>
-  </div>
-
-  <div id="resume" class="container container-yellow">
-    <div class="description-container">
-      <div class="description-title yellow">Resumé</div>
-      <div class="description-text">My resumé is currently not available on this website. If you want to get <br>in touch with me, please write to me on <a href="https://www.linkedin.com/in/tony-liu-407234140/" target="blank"> LinkedIn</a> or send me an 
-      <a href="mailto:tonyranliu@gmail.com" target="_top"> email</a>.
-      </div>
-    </div>
-  </div>
-
-  <div class="footer">
-    <div class="footer-content">
-      <ul>
-        <li>
-          <a target="blank" href="https://linkedin.com/in/tony-liu-407234140/">
-            <img src="linkedin.png">
-          </a>
-        </li>
-        <li>
-          <a target="blank" href="https://github.com/tonitajger">
-            <img src="github.png">
-          </a>
-        </li>
-      </ul>
-      <div class="copyright">
-        <p>© 2018 Tony Liu. All rights reserved.
-      </div>
-    </div>
-  </div>
 </body>
 </html>
