@@ -34,8 +34,9 @@ body {
   filter: saturate(75%) contrast(110%);
 }
 h1 {
-  font-size: 40px;
-  font-family: 'Kaushan', 'Luminari', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif , serif, ´;
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+
 }
 
 
@@ -99,6 +100,7 @@ a:active {
 }
 .wedding-info .info-title {
   color: #ffffff;
+  margin-bottom: 40px;
 }
 .wedding-details {
   margin-top: 20px;
