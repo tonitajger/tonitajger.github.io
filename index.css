@@ -38,8 +38,6 @@ h1 {
   font-family: 'Playfair Display', serif;
 
 }
-
-
 .image-title {
   margin-top: 50px;
   width: 100%;
@@ -66,6 +64,7 @@ a:hover {
 a:active {
   color: #c8d6bd;
 }
+
 .container {
   margin: 0;
   text-align: center;
