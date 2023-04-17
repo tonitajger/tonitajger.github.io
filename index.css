@@ -10,11 +10,10 @@ html {
   height: 100%;
 }
 body {
-  overscroll-behavior-y: none;
   height: 100%;
   overflow: auto;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif , serif;
-  background-color: #ffffff;
+  background-color: #fff1eb;
   color: #1e1818;
   /*max-width: 600px;*/
   text-align: center;
@@ -137,6 +136,14 @@ a:active {
   padding: 15px;
   border-radius: 15px/15px;
   color: #ffffff;
+}
+.program-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #ffffff;
+  color: #ffffff;
+  -webkit-border-radius: 50px 50px 50px 50px;
+  border-radius: 50px 50px 50px 50px; 
 }
 .copy-right-container {
   width: 100%;
